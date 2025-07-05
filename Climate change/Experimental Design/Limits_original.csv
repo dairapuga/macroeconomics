@@ -1,0 +1,23 @@
+VarName,Min,Max,Cte,Type,Gradient,Description,Comments
+alfa,0.33,0.33,0.33,1,5,,
+epsilon,3,10,5,3,5,elasticity of substitution,
+Eta.re,0.013333333,0.026666667,0.02,1,2,probability of successful innovation,
+Eta.ce,0.013333333,0.026666667,0.02,1,2,probability of successful innovation,
+Gamma.re,0.166666667,0.333333333,0.25,1,2,,
+Gamma.ce,0.166666667,0.333333333,0.25,1,2,,
+Nu.re,0.013333333,0.026666667,0.02,1,2,,
+Nu.ce,0.013333333,0.026666667,0.02,1,2,,
+k.re,0,0.693147181,0,1,2,"this coefficient controls decreasing returns to research in the ""ce"" sector",when zero this effect is not active
+k.ce,0,0.693147181,0,1,2,"this coefficient controls decreasing returns to research in the ""re"" sector ",when zero this effect is not active
+labor.growth_N,0,0,0,1,5,this coeficient control demographic exogenous labor growth in the north,when zero this effect is not active
+labor.growth_S,0,0,0,1,5,this coeficient control demographic exogenous labor growth in the south,when zero this effect is not active
+lambda.S,0.1443,0.1443,0.1443,1,5,parameters of utility function,# based on acemoglous calibration
+sigma.utility,2,2,2,1,5,parameters of utility function,# based on acemoglous calibration
+rho,0.001,0.015,0.008,3,5,utility discount rate,
+Yre.0_N,45.55074,45.55074,45.55074,1,5,production of renewable energy in North [ Quadrillion of Btu],data from iea for 2012 from eia
+Yce.0_N,193.15726,193.15726,193.2,1,5,production of fossil fuel energy in North [ Quadrillion of Btu],data from iea for 2012 from eia
+Yre.0_S,27.82166,27.82166,27.82166,1,5,production of renewable energy in South [ Quadrillion of Btu],data from iea for 2012 from eia
+Yce.0_S,257.54634,257.54634,257.54634,1,5,production of fossil fuel energy in South [ Quadrillion of Btu],data from iea for 2012 from eia
+size.factor,4,4,4,1,5,this factor specifies how much times the market in the emerging region is bigger than the market in the advanced region. ,
+TimeStep,5,5,5,1,5,,
+EndTime,300,300,300,1,5,,
